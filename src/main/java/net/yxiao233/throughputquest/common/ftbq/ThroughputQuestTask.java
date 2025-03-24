@@ -7,22 +7,23 @@ import dev.ftb.mods.ftblibrary.icon.IconAnimation;
 import dev.ftb.mods.ftblibrary.icon.ItemIcon;
 import dev.ftb.mods.ftblibrary.util.TooltipList;
 import dev.ftb.mods.ftbquests.integration.item_filtering.ItemMatchingSystem;
-import dev.ftb.mods.ftbquests.item.FTBQuestsItems;
-import dev.ftb.mods.ftbquests.net.FTBQuestsNetHandler;
 import dev.ftb.mods.ftbquests.quest.Quest;
 import dev.ftb.mods.ftbquests.quest.TeamData;
 import dev.ftb.mods.ftbquests.quest.task.Task;
 import dev.ftb.mods.ftbquests.quest.task.TaskType;
-import dev.ftb.mods.ftbquests.util.NBTUtils;
+import dev.ftb.mods.ftbquests.registry.ModItems;
 import net.minecraft.ChatFormatting;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
 import net.yxiao233.throughputquest.common.part.ThroughputDetectionMonitorPart;
 
 import java.util.ArrayList;
@@ -72,7 +73,7 @@ public class ThroughputQuestTask extends Task {
         }
 
         if (icons.isEmpty()) {
-            return ItemIcon.getItemIcon(FTBQuestsItems.MISSING_ITEM.get());
+            return ItemIcon.getItemIcon(ModItems.MISSING_ITEM.get());
         } else {
             return IconAnimation.fromList(icons, false);
         }
@@ -107,36 +108,36 @@ public class ThroughputQuestTask extends Task {
     }
 
     @Override
-    public void readData(CompoundTag nbt) {
-        super.readData(nbt);
-        throughput = nbt.getInt("throughput");
-        itemStack = NBTUtils.read(nbt,"item");
-        workRoutine = ThroughputDetectionMonitorPart.WorkRoutine.getById(nbt.getString("workroutine"));
-    }
-
-    @Override
-    public void writeData(CompoundTag nbt) {
-        super.writeData(nbt);
+    public void writeData(CompoundTag nbt, HolderLookup.Provider provider) {
+        super.writeData(nbt,provider);
         nbt.putLong("throughput", throughput);
-        NBTUtils.write(nbt,"item",this.itemStack);
+        nbt.putString("item",BuiltInRegistries.ITEM.getKey(itemStack.getItem()).toString());
         nbt.putString("workroutine",this.workRoutine.getId());
     }
 
     @Override
-    public void readNetData(FriendlyByteBuf buffer) {
-        super.readNetData(buffer);
-        this.throughput = buffer.readLong();
-        this.itemStack = FTBQuestsNetHandler.readItemType(buffer);
-        this.workRoutine = buffer.readEnum(ThroughputDetectionMonitorPart.WorkRoutine.class);
+    public void readData(CompoundTag nbt, HolderLookup.Provider provider) {
+        super.readData(nbt,provider);
+        throughput = nbt.getInt("throughput");
+        itemStack = BuiltInRegistries.ITEM.get(ResourceLocation.parse(nbt.getString("item"))).getDefaultInstance();
+        workRoutine = ThroughputDetectionMonitorPart.WorkRoutine.getById(nbt.getString("workroutine"));
+    }
+    @Override
+    public void writeNetData(RegistryFriendlyByteBuf buffer) {
+        super.writeNetData(buffer);
+        buffer.writeLong(this.throughput);
+        ItemStack.OPTIONAL_STREAM_CODEC.encode(buffer, this.itemStack);
+        buffer.writeEnum(this.workRoutine);
     }
 
     @Override
-    public void writeNetData(FriendlyByteBuf buffer) {
-        super.writeNetData(buffer);
-        buffer.writeLong(this.throughput);
-        FTBQuestsNetHandler.writeItemType(buffer, this.itemStack);
-        buffer.writeEnum(this.workRoutine);
+    public void readNetData(RegistryFriendlyByteBuf buffer) {
+        super.readNetData(buffer);
+        this.throughput = buffer.readLong();
+        this.itemStack = ItemStack.OPTIONAL_STREAM_CODEC.decode(buffer);
+        this.workRoutine = buffer.readEnum(ThroughputDetectionMonitorPart.WorkRoutine.class);
     }
+
 
     @Override
     public int autoSubmitOnPlayerTick() {

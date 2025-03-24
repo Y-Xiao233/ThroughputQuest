@@ -3,7 +3,7 @@ plugins {
     id 'eclipse'
     id 'idea'
     id 'maven-publish'
-    id 'net.neoforged.gradle.userdev' version '7.0.142'
+    id 'net.neoforged.gradle.userdev' version '7.0.170'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -55,9 +55,27 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 configurations {
     runtimeClasspath.extendsFrom localRuntime
 }
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
+
+    implementation "curse.maven:ftb-quests-forge-289412:${ftb_quest_version}"
+    implementation "curse.maven:advancedae-1084104:${advancedae_version}"
+    implementation "curse.maven:applied-energistics-2-223794:${ae_version}"
+    implementation "curse.maven:guideme-1173950:${guideme_version}"
+    implementation "curse.maven:glodium-957920:${glodium_version}"
+    implementation "curse.maven:ftb-teams-forge-404468:${ftb_teams_version}"
+    implementation "curse.maven:architectury-api-419699:${architectury_version}"
+    implementation "curse.maven:ftb-library-forge-404465:${ftb_library_version}"
+    implementation "curse.maven:geckolib-388172:${geckolib_version}"
 }
 
 tasks.withType(ProcessResources).configureEach {
