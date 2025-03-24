@@ -127,3 +127,86 @@
 [243月2025 12:38:06.467] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
 [243月2025 12:38:06.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
 [243月2025 12:38:07.019] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[243月2025 12:38:36.589] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[243月2025 12:38:38.069] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
+[243月2025 12:38:38.074] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[243月2025 12:38:38.074] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[243月2025 12:38:38.082] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[243月2025 12:38:38.083] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[243月2025 12:38:38.083] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[243月2025 12:38:38.083] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[243月2025 12:38:38.083] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[243月2025 12:38:38.084] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[243月2025 12:38:38.084] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[243月2025 12:38:38.084] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[243月2025 12:38:38.084] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[243月2025 12:38:38.084] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
+[243月2025 12:38:38.084] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[243月2025 12:38:38.586] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/16m_fe_cell_assemble as it's serializer returned null
+[243月2025 12:38:38.587] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:skysteel as it's serializer returned null
+[243月2025 12:38:38.596] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:tools/fe_16m_portable_cell as it's serializer returned null
+[243月2025 12:38:38.603] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/fe_housing as it's serializer returned null
+[243月2025 12:38:38.607] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/16m_core as it's serializer returned null
+[243月2025 12:38:38.609] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:tools/fe_4m_portable_cell as it's serializer returned null
+[243月2025 12:38:38.610] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:accumulation_processor_chamber as it's serializer returned null
+[243月2025 12:38:38.620] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/1m_fe_cell as it's serializer returned null
+[243月2025 12:38:38.621] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/1m_fe_cell_assemble as it's serializer returned null
+[243月2025 12:38:38.626] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:tools/fe_1m_portable_cell as it's serializer returned null
+[243月2025 12:38:38.626] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/4m_fe_cell as it's serializer returned null
+[243月2025 12:38:38.627] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/sky_resin as it's serializer returned null
+[243月2025 12:38:38.629] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/64m_fe_cell_assemble as it's serializer returned null
+[243月2025 12:38:38.629] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/4m_fe_cell_assemble as it's serializer returned null
+[243月2025 12:38:38.630] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/4m_core as it's serializer returned null
+[243月2025 12:38:38.632] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:tools/fe_256m_portable_cell as it's serializer returned null
+[243月2025 12:38:38.632] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/256m_fe_cell_assemble as it's serializer returned null
+[243月2025 12:38:38.634] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/64m_fe_cell as it's serializer returned null
+[243月2025 12:38:38.636] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:eaeadvpatpro as it's serializer returned null
+[243月2025 12:38:38.636] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:quantum_processor_print_eae as it's serializer returned null
+[243月2025 12:38:38.637] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/256m_core as it's serializer returned null
+[243月2025 12:38:38.641] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/64m_core as it's serializer returned null
+[243月2025 12:38:38.644] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/1m_core as it's serializer returned null
+[243月2025 12:38:38.648] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:tools/fe_64m_portable_cell as it's serializer returned null
+[243月2025 12:38:38.650] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/16m_fe_cell as it's serializer returned null
+[243月2025 12:38:38.651] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe appflux:mega/256m_fe_cell as it's serializer returned null
+[243月2025 12:38:38.654] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[243月2025 12:38:38.760] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1770 advancements
+[243月2025 12:38:39.324] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[243月2025 12:38:39.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[243月2025 12:38:39.439] [Server thread/INFO] [FTB Teams/]: loaded team data: 1 known players, 1 teams total
+[243月2025 12:38:40.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[243月2025 12:38:42.436] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[243月2025 12:38:42.436] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[243月2025 12:38:42.436] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[243月2025 12:38:42.436] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[243月2025 12:38:42.438] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[243月2025 12:38:42.937] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[243月2025 12:38:43.109] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[243月2025 12:38:43.115] [Server thread/INFO] [FTB Quests/]: Loading quests from K:\mod\learn_mods\ThroughputQuest\run\config\ftbquests\quests
+[243月2025 12:38:43.118] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2681 ms
+[243月2025 12:38:43.132] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 1 chapters, 1 quests, 0 reward tables
+[243月2025 12:38:43.335] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[243月2025 12:38:43.337] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[243月2025 12:38:43.508] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[243月2025 12:38:44.024] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[243月2025 12:38:44.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b3a118ff] logged in with entity id 199 at (-22.471091781009605, 69.0, -66.77210116593959)
+[243月2025 12:38:44.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[243月2025 12:38:44.293] [Netty Local Client IO #0/INFO] [FTB Quests/]: Read 682 bytes, 4 objects
+[243月2025 12:38:44.580] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/appflux:charger/charge_redstone
+[243月2025 12:38:44.586] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/meteorite_compass
+[243月2025 12:38:44.587] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/guide
+[243月2025 12:38:44.590] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/charged_certus_quartz_crystal
+[243月2025 12:38:44.594] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/appflux:charger/energy_press
+[243月2025 12:38:45.078] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 70 advancements
+[243月2025 12:39:04.409] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 73 advancements
+[243月2025 13:00:51.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[243月2025 13:00:51.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[243月2025 13:00:51.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[243月2025 13:00:51.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[243月2025 13:00:52.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[243月2025 13:00:52.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[243月2025 13:00:52.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
+[243月2025 13:00:52.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[243月2025 13:00:52.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[243月2025 13:00:52.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[243月2025 13:00:52.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[243月2025 13:00:52.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
