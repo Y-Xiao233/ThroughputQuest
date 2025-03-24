@@ -7,7 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.yxiao233.throughputquest.ThroughputQuest;
 
 public interface TQTaskTypes {
-    TaskType THROUGHPUT = TaskTypes.register(ResourceLocation.fromNamespaceAndPath(ThroughputQuest.MODID,"throughput"),ThroughputQuestTask::new,() ->{
+    TaskType THROUGHPUT = TaskTypes.register(new ResourceLocation(ThroughputQuest.MODID,"throughput"),ThroughputQuestTask::new,() ->{
         return Icon.getIcon("throughput_quest:textures/icon/throughput_detection_monitor.png");
     });
     static void init() {
