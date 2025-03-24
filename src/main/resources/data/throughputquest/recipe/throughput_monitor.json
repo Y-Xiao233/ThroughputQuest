@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "throughput_quest:throughput_detection_monitor"
+    }
+  ],
+  "result": {
+    "id": "advanced_ae:throughput_monitor"
+  }
+}
