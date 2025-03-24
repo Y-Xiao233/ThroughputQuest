@@ -1,0 +1,1 @@
+Added a new task type for FTB Quest: throughput detection
