@@ -1,0 +1,315 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-23 12:02:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-03-23 12:03:08 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-03-23 22:51:26 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_fluix_clean": {
+    "criteria": {
+      "has_smart_cable": "2025-03-23 22:57:48 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_blue": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_green": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_lime": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_light_blue": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_black": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_brown": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_pink": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_light_gray": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crystal_processing_growth_accelerator": {
+    "criteria": {
+      "has_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_purple": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_orange": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/covered_fluix": {
+    "criteria": {
+      "has_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/storage_chest": {
+    "criteria": {
+      "has_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_gray": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_fluix_clean": {
+    "criteria": {
+      "has_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_red": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_yellow": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:main/glass_cable": {
+    "criteria": {
+      "certus": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_white": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_cyan": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/spatial_io_pylon": {
+    "criteria": {
+      "has_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_magenta": {
+    "criteria": {
+      "has_fluix_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/toggle_bus": {
+    "criteria": {
+      "has_glass_cable": "2025-03-23 22:57:51 +0800"
+    },
+    "done": true
+  },
+  "ae2:main/controller": {
+    "criteria": {
+      "certus": "2025-03-23 22:57:59 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/io_port": {
+    "criteria": {
+      "has_drive": "2025-03-23 22:58:01 +0800"
+    },
+    "done": true
+  },
+  "ae2:main/storage_cell": {
+    "criteria": {
+      "c256k": "2025-03-23 22:58:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-03-23 22:58:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-03-23 22:58:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-03-23 23:04:16 +0800"
+    },
+    "done": true
+  },
+  "advanced_ae:recipes/misc/stock_export_bus": {
+    "criteria": {
+      "hasItem": "2025-03-23 23:05:05 +0800"
+    },
+    "done": true
+  },
+  "advanced_ae:recipes/misc/import_export_bus": {
+    "criteria": {
+      "hasItem": "2025-03-23 23:05:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-23 23:06:40 +0800"
+    },
+    "done": true
+  },
+  "ae2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2025-03-23 23:25:08 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_crafting_terminal": {
+    "criteria": {
+      "has_terminal": "2025-03-23 23:25:08 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/terminals_pattern_encoding": {
+    "criteria": {
+      "has_crafting_terminal": "2025-03-23 23:25:08 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/network_tool": {
+    "criteria": {
+      "has_quartz_wrench": "2025-03-23 23:29:08 +0800"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/monitors_conversion": {
+    "criteria": {
+      "has_storage_monitor": "2025-03-24 10:00:42 +0800"
+    },
+    "done": true
+  },
+  "advanced_ae:recipes/misc/throughput_monitor": {
+    "criteria": {
+      "hasItem": "2025-03-24 10:00:42 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

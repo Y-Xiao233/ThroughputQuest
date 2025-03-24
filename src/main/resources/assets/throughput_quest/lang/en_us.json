@@ -1,0 +1,11 @@
+{
+  "itemGroup.throughput_quest": "Throughput Quest",
+
+  "item.throughput_quest.throughput_detection_monitor": "ME Throughput Detection Monitor",
+
+  "ftbquests.task.throughput_quest.throughput": "Throughput Detection",
+
+  "ftbquests.task.throughput_quest.over_text": "Mark this item in the ME throughput detection monitor, and complete the task when the throughput quantity is greater than or equal to %s / %s",
+  "ftbquests.task.throughput_quest.throughput.throughput": "Throughput",
+  "ftbquests.task.throughput_quest.throughput.work_routine": "Work Routine"
+}

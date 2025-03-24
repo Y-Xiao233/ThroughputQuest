@@ -1,0 +1,11 @@
+{
+  "itemGroup.throughput_quest": "吞吐量任务",
+
+  "item.throughput_quest.throughput_detection_monitor": "ME吞吐量检测终端",
+
+  "ftbquests.task.throughput_quest.throughput": "吞吐量检测",
+
+  "ftbquests.task.throughput_quest.over_text": "在ME吞吐量检测终端中标记此物品,吞吐数量大于等于 %s / %s 时即可完成该任务",
+  "ftbquests.task.throughput_quest.throughput.throughput": "吞吐量",
+  "ftbquests.task.throughput_quest.throughput.work_routine": "工作方式"
+}

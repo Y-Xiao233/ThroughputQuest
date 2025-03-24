@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: ""
+	id: "64EC5263C286177C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5B26677DC6BB2C17"
+		tasks: [{
+			id: "133DC313DF622009"
+			item: "minecraft:spruce_wood"
+			throughput: 1L
+			type: "throughput_quest:throughput"
+			workroutine: "second"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "test"
+}
